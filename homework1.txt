@@ -1,0 +1,7 @@
+class firstProgram {
+	public static void main(String[] args) {
+		System.out.println(«Привет мир! Я изучаю Java.»); //first comment
+/*this is second comment*/
+	}
+}
+
