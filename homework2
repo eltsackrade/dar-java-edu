@@ -1,0 +1,56 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        /* Part 1*/
+        String flowersName = "Roses";
+        int flowersNumber = 101;
+        System.out.println(flowersName);
+        System.out.println(flowersNumber);
+
+        int a;
+        int b;
+        a = 15;
+        b = 10;
+        System.out.println(a + b);
+
+        int c;
+        c = a + b;
+        System.out.println(c);
+
+        int j = 3, k = 4, l = 6;
+        System.out.println(j + k + l);
+
+        int q, w, e, r;
+        q = w = e = r = 10;
+        System.out.println(q + w + e +r);
+
+        /*part 2*/
+        double d;
+        double pi = 3.14;
+        double g = 9.82;
+        String city = "Almaty";
+        d = 15;
+        d = 20;
+        System.out.println(d);
+
+        byte bt = 100;
+        short st = 2;
+        int it = 5;
+        long lg = 255;
+        double db = 5.45;
+        float fl = 12;
+        boolean bl = false;
+        char ch = 'k';
+        String str = "Homework";
+        System.out.println(bt+ ", " + st + ", " + it + ", " + lg + ", " + db + ", " + fl + ", " + bl + ", " + ch + ", " + str);
+
+        int first = 2;
+        double second = (double)first;
+        System.out.println(second);
+
+        double third  = 5.51;
+        int fourth = (int)third;
+        System.out.println(fourth);
+    }
+}
