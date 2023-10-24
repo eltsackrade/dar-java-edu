@@ -1,0 +1,52 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        int a = 10; //1
+        int b = 5;
+        System.out.println(a * b);
+
+        double c = 20; //2
+        double d = 2.5;
+        System.out.println(c / d);
+
+        double dlina = 15; //3
+        double shirina =9;
+        double per = 2 * (a + b);
+        double pl = a * b;
+        System.out.println("Perimetr: " + per + ", " + "Ploshad': " + pl);
+
+        int x = 1; //4
+        System.out.println(++x);
+        System.out.println(x++);
+
+        int x1 = 10; //5
+        System.out.println(x1 += 5);
+
+        System.out.println(25 == 43); //6
+
+        int a1 = 10; //7
+        int b1 = 5;
+        int sloj = a1 + b1;
+        int vych = a1 - b1;
+        int umn = a1 * b1;
+        int del = a1 / b1;
+        double mod = a1 % b1;
+        System.out.println("Slozhenie: " + sloj + ", " + "Vychitanie: " + vych + ", " + "Umnozhenie: " + umn + ", " + "Delenie: " + del + ", " + "Mod: " + mod);
+
+        int celcius; //8
+        celcius = 30;
+        System.out.println("Farengheit: " + celcius * 1.8 + 32);
+
+        double q = 451; //9
+        double result = (q + 10) % 3;
+        result = (result + 5) * 5;
+        int result1 = (int)result;
+        System.out.println(result1);
+
+        int a2 = 65; //10
+        int b2 = 80;
+        System.out.println((a2 < 50) && (a2 < b2));
+    }
+
+}
